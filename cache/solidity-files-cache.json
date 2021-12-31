@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/mnt/d/School/VisualStudioProjects/alchemy_NFT/contracts/MyNFT.sol": {
-      "lastModificationDate": 1640977232423,
-      "contentHash": "b22d77f4771b50db4b5f00ebddd6d049",
+      "lastModificationDate": 1640978154464,
+      "contentHash": "0ad58b2f40952caec49fc6f80e094635",
       "sourceName": "contracts/MyNFT.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -28,36 +28,13 @@
           }
         }
       },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        "^0.8.0",
-        ">=0.8.0 <0.9.0"
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
       ],
+      "versionPragmas": [],
       "artifacts": [
-        "Address",
-        "Context",
-        "ERC165",
-        "ERC721",
-        "ERC721Enumerable",
-        "IERC165",
-        "IERC721",
-        "IERC721Enumerable",
-        "IERC721Metadata",
-        "IERC721Receiver",
-        "MyNFT",
-        "Ownable",
-        "Strings"
+        "MyNFT"
       ]
     },
     "/mnt/d/School/VisualStudioProjects/alchemy_NFT/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol": {

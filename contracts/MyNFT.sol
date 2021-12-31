@@ -138,6 +138,10 @@ contract MyNFT is ERC721Enumerable, Ownable {
   function setOnlyWhitelisted(bool _state) public onlyOwner {
     onlyWhitelisted = _state;
   }
+
+  function burn(uint256 tokenId) internal virtual {
+        _burn(tokenId);
+  }
   
   function whitelistUsers(address[] calldata _users) public onlyOwner {
     delete whitelistedAddresses;
