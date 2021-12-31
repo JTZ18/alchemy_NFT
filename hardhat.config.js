@@ -6,6 +6,7 @@ require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 require('hardhat-abi-exporter');
+require('@openzeppelin/hardhat-upgrades');
 
 const { API_URL, PRIVATE_KEY } = process.env;
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
@@ -23,7 +24,7 @@ module.exports = {
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
-    apiKey: "722C5TMQ7EKRREIP6MBYKTI6GJEFBEAM7H" // process.env.ETHERSCAN_API_KEY // `${ETHERSCAN_API_KEY}`
+    apiKey: ETHERSCAN_API_KEY // process.env.ETHERSCAN_API_KEY // `${ETHERSCAN_API_KEY}`
   },
   abiExporter: {
     path: './data/abi',

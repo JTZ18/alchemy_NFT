@@ -4,10 +4,10 @@ async function main() {
 
     // Start deployment, returning a promise that resolves to a contract object
     const myNFT = await MyNFT.deploy(
-        _name="KungFu Geckos",
-        _symbol="GECKOS",
-        _initBaseURI="https://clonex-assets.rtfkt.com/",
-        _initNotRevealedUri="https://gateway.pinata.cloud/ipfs/QmNeASo5avCYi5McvS6rbZgk9zx2zyj59RsiNhrqodMUBS?preview=1"
+        "KungFu Geckos",
+        "GECKOS",
+        "https://clonex-assets.rtfkt.com/",
+        "https://gateway.pinata.cloud/ipfs/QmNeASo5avCYi5McvS6rbZgk9zx2zyj59RsiNhrqodMUBS?preview=1"
     ); // Instance of the contract 
     console.log("Contract deployed to address:", myNFT.address);
 }
