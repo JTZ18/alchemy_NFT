@@ -1,0 +1,11 @@
+{
+    "name": "Gecko",
+    "description": "KungFu Geckos are a series of geckos to help raise funds for the kung fu gecko movie.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPTjHxha2EGJ1Q4FZBnxVjzCBJqkYbzv3Q3DoXn2SogUe",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Unrevealed"
+        }
+    ]
+}
